@@ -211,3 +211,24 @@ span{
     display: flex;
     flex-direction: row;
 }
+
+i {
+    padding: 2px;
+}
+
+.hearttag {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    align-content: center;
+    top: 10px;
+    right: 0px;
+    justify-content: center;
+}
+
+.hearttag:hover{
+    color: red;
+}
