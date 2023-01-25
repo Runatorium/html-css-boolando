@@ -107,6 +107,26 @@ main{
     background-image: url(../../img/1.webp);
     background-size: cover;
 }
+
+.item-image1:hover{
+    background-image: url(../../img/1b.webp);
+}
+.item-image2:hover{
+    background-image: url(../../img/2b.webp);
+}
+.item-image3:hover{
+    background-image: url(../../img/3b.webp);
+}
+.item-image4:hover{
+    background-image: url(../../img/4b.webp);
+}
+.item-image5:hover{
+    background-image: url(../../img/5b.webp);
+}
+.item-image6:hover{
+    background-image: url(../../img/6b.webp);
+}
+
 .item-image2{
     position: relative;
     display: flex;
