@@ -174,7 +174,7 @@ main{
 }
 
 .item-dsrc{
-    padding: 20px;
+    margin-bottom: 20px;
 }
 
 span{
@@ -203,6 +203,7 @@ span{
     display: flex;
     flex-direction: column;
     list-style: none;
+    color: white;
 }
 
 #sotto-lista-info{
