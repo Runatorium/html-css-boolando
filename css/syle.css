@@ -41,30 +41,66 @@ main{
     justify-content: center;
 }
 
-/* debug colore */
 .shop{
   display: flex;
   margin-top: 40px ;
   align-self: center;      
   width: 60% ;
   height: 1200px;
-  background-color: grey;
   flex-wrap: wrap;
 }
-/* debug colore */
+.doubletags{
+    position: relative
+}
+.tags50off{
+    height: 20px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+}
+.tags30off{
+    height: 20px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+}
+.tagssustain{
+    height: 20px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
 
+.tagssustainspc{
+    height: 20px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+}
 
 .shop-item{
     height: 500px;
     width: calc((100% / 3 - 20px));
-    border-style: dotted;
-    border-color: white;
     flex-direction: column;
     margin: 10px;
 }
 
 .item-image1{
     display: flex;
+    position: relative;
     height: 100%;
     width: 100%;
     background-color: aqua;
@@ -72,6 +108,7 @@ main{
     background-size: cover;
 }
 .item-image2{
+    position: relative;
     display: flex;
     height: 100%;
     width: 100%;
@@ -81,6 +118,7 @@ main{
 }
 
 .item-image3{
+    position: relative;
     display: flex;
     height: 100%;
     width: 100%;
@@ -89,6 +127,7 @@ main{
     background-size: cover;
 }
 .item-image4{
+    position: relative;
     display: flex;
     height: 100%;
     width: 100%;
@@ -105,6 +144,7 @@ main{
     background-size: cover;
 }
 .item-image6{
+    position: relative;
     display: flex;
     height: 100%;
     width: 100%;
