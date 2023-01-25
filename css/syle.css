@@ -27,6 +27,10 @@
     display: flex;
 }
 
+#logofont{
+    width: 100%;
+}
+
 li{
     padding: 5px;
 }
@@ -96,6 +100,7 @@ main{
     list-style: none;
 }
 
-.sotto-lista-info{
+#sotto-lista-info{
+    display: flex;
     flex-direction: row;
 }
